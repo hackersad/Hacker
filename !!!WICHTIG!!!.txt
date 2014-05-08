@@ -1,3 +1,5 @@
 Im ordner befinden sich nur die Tex-Files!!!
 
 Wer die PDF erstellen will, soll sich die Datei seperat speichern und danach erst die PDF von dort aus erstellen!!!
+
+Vor dem PUSH sämtliche PDF-Dateien löschen, sodass sich nur die Tex-Files im Ordner befinden!!!
