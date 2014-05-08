@@ -1,0 +1,15 @@
+Anleitung Sourcetree
+
+1. Anwendung
+
+Nachdem Sourcetree von der Hackercrew erfolgreich eingerichtet wurde, geht es los.
+Jetzt gibt es 3 User und einen Master. Somit wurden sämtliche Probleme umgangen.
+Als erstes wird das aktuelle Repository angefordert. Danach gewird gepullt. Einmal auf Zusammenführen
+und schon ist das lokale Repository auf dem aktuellsten Stand. Schon kann man nach Belieben
+latexen.
+
+2. Upload
+
+Bevor man seine Dateien uploadet, löscht man alles bis auf die Graphiken, das Statistik.tex und
+das Lexikon.tex. Jetzt kann Committet werden, dabei die bearbeiteten Dateien nach oben schieben.
+Als nächstes kommt der Push. Danach auf github.com und den Request machen. Der Rest wird vom Master hackersad erledigt
