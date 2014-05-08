@@ -1,0 +1,431 @@
+\documentclass{scrartcl}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{listings}
+\usepackage{pdfpages}
+\usepackage{url}
+\usepackage[colorlinks=true,linkcolor=black]{hyperref}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{enumitem}
+\usepackage{blindtext} 
+\usepackage{a4wide}
+\usepackage{setspace} 
+\begin{document}
+
+\section{Aufgabe E1}
+Es soll eine neugezüchtete Kartoffelsorte getestet werden. Dazu wird ein Testfeld ausgewählt, das auf der gesamten Fläche gleiche Wachstumsvoraussetzungen (Bodenqualität, Sonneneinstrahlung etc.) bietet. Nachdem eine gleichmäßige Pflege der Pflanzen erfolgte (Bewässerung, Düngung etc.), wurde von der ersten Ernte auf dem Versuchsfeld eine Stichprobe entnommen, die die folgende Urliste (für das Gewicht der Kartoffeln in g) lieferte:
+
+\begin{center}
+\renewcommand{\arraystretch}{1,5}
+\begin{tabular}{|c|cccccccccc|}
+\hline
+$j$ & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10\\
+\hline
+$x_j$ & 132 & 145 & 172 & 151 & 152 & 136 & 143 & 112 & 159 & 152\\
+\hline
+\end{tabular}
+\end{center}
+
+ 
+\begin{enumerate}[leftmargin=1cm, label=\alph*)]
+	
+	%Aufgabe 1a
+	\item Bestimmen Sie die geordnete Stichprobe. 
+	\begin{center}
+	\renewcommand{\arraystretch}{1,5}
+	\begin{tabular}{|c|cccccccccc|}
+	\hline
+	$j$ & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10\\
+	\hline
+	$x_j$ & 112 & 132 & 136 & 143 & 145 & 151 & 152 & 152 & 159 & 172\\
+	\hline
+	\end{tabular}
+	\end{center}
+	
+	%Aufgabe 1b
+	\item Klassieren Sie die obigen Daten (wählen Sie 4 gleichlange Intervalle) und zeichnen Sie das dazugehörige Histogramm.
+	\newline
+	\newline
+	\begin{tabular}{cc}
+	 Intervalle&Anzahl\\
+	 \hline
+	 $I_{1}=[112,127[$&  $1$\\
+	 $I_{2}=[127,142[$&  $2$\\ 
+	 $I_{3}=[142,157[$&  $5$\\ 
+	 $I_{4}=[157,172[$&  $2$\\ 
+	\end{tabular} 
+	
+	
+	%Aufgabe 1c
+	\item Skizzieren Sie die empirische Verteilungsfunktion der unklassierten Daten (F(x) = Anteil der Kartoffeln mit einem Gewicht kleiner gleich x).
+	\newline
+		\newline
+		Lösung:
+		\newline
+		fehlt
+		\newline
+	
+	
+	%Aufgabe 1d
+	\item Zeichnen Sie die empirische Verteilungsfunktion der klassierten Daten (wie bei unklassierten Daten außer, dass innerhalb einer Klasse der Anteil als gleichmäßig wachsend betrachtet wird).
+	\newline
+		\newline
+		Lösung:
+		\newline
+		fehlt
+		\newline
+	
+	
+	%Aufgabe 1e
+	\item Berechnen Sie den Mittelwert (=arithmetisches Mittel) der Daten.
+	\newline
+	\newline
+	Lösung:
+	\newline
+	$\overline{x}=\dfrac{1}{10}\sum_{n=0}^N x_{k}$
+	
+	
+	%Aufgabe 1f
+	\item Wie gross ist der Modalwert (der am häufigsten vorkommende Wert) der Stichprobe. Ist diese Information brauchbar?
+	\newline
+	\newline
+	Lösung:
+	\newline
+	Modalwert = $152$
+	\newline
+	\newline
+	
+	
+	%Aufgabe 1g
+	\item Bestimmen Sie den Median (der Wert, so dass mind. 50\% der Daten kleiner gleich und mind. 50\% der Daten größer gleich diesem sind). Ist dieser Wert eindeutig?
+	\newline
+	\newline
+	Lösung:
+	\newline
+	$x_{0,5}\in[x_{(5)},x_{(6)}]=[145,151]$
+	\newline $x_{0,5}=\dfrac{x_{(5)}+x_{(6)}}{2}$
+	\newline
+	
+	
+	%Aufgabe 1h
+	\item Bestimmen Sie das 0,25 Quantil (der Wert, so dass mind. 25\% der Daten kleiner gleich und mind. 75\% der Daten größer gleich diesem sind). Ist dieser Wert eindeutig?
+	\newline
+	\newline
+	Lösung:
+	\newline
+	$x_{0,25}=x_{3}=136$
+	\newline
+	
+	
+	%Aufgabe 1i
+	\item Bestimmen Sie das 0,75 Quantil (der Wert, so dass mind. 75\% der Daten kleiner gleich und mind. 25\% der Daten größer gleich diesem sind).
+	\newline
+	\newline
+	Lösung:
+	\newline
+	$x_{0,75}=x_{(8)}=152$
+	\newline
+	
+	
+	%Aufgabe 1j
+	\item Bestimmen Sie den Quartilsabstand (die Differenz zwischen dem 0,75 und dem 0,25 Quantil)
+	\newline
+	\newline
+	Lösung:
+	\newline
+	Quartilsabstand $x_{0,75}-x_{0,25}=152-136=16$
+	\newline
+	
+	
+	
+	%Aufgabe 1k
+	\item Bestimmen Sie das 0,3 Quantil (der Wert, so dass mind. 30\% der Daten kleiner gleich und mind. 70\% der Daten größer gleich diesem sind). Ist dieser Wert eindeutig?
+	\newline
+	\newline
+	Lösung:
+	\newline
+	$x_{0,3}\in[x_{(3)},x_{(5)}]$
+	\newline
+	
+	%Aufgabe 1l
+	\item Bestimmen Sie die empirische Varianz und daraus die empirische Standardabweichung.
+	\newline
+	\newline
+	Lösung:
+	\newline
+	empirische Varianz $s=\dfrac{1}{n}\sum_{i=1}^n(x_{i}-\overline{x})$
+	\newline
+	empireische Standartabweichung $\sqrt{s^2}=\sqrt{\dfrac{1}{n}\sum_{i=1}^n(x_{i}-\overline{x}}$
+	\newline
+	\begin{center}
+	
+	\begin{tabular}{|c|c|c|}
+	\hline \rule[-2ex]{0pt}{5.5ex}  Index&  Gewicht&  $x(i)-\overline{x}$\\ 
+	\hline \rule[-2ex]{0pt}{5.5ex}  1&  		112&  	$[112-145,4]^2$\\ 
+	\hline \rule[-2ex]{0pt}{5.5ex}  2&  		132&  	$[132-145,4]^2$\\ 
+	\hline \rule[-2ex]{0pt}{5.5ex}  3&  		136&  	$[136-145,4]^2$\\ 
+	\hline \rule[-2ex]{0pt}{5.5ex}  4&  		143&  	$[143-145,4]^2$\\ 
+	\hline \rule[-2ex]{0pt}{5.5ex}  5&  		145&  	$[145-145,4]^2$\\ 
+	\hline \rule[-2ex]{0pt}{5.5ex}  6&  		151&  	$[151-145,4]^2$\\ 
+	\hline \rule[-2ex]{0pt}{5.5ex}  7&  		152&  	$[152-145,4]^2$\\ 
+	\hline \rule[-2ex]{0pt}{5.5ex}  8&  		152&  	$[152-145,4]^2$\\ 
+	\hline \rule[-2ex]{0pt}{5.5ex}  9&  		159&  	$[159-145,4]^2$\\ 
+	\hline \rule[-2ex]{0pt}{5.5ex}  10&  		172&  	$[172-145,4]^2$\\ 
+	\hline \rule[-2ex]{0pt}{5.5ex}  Summe&  	1454&  	-\\ 
+	\hline \rule[-2ex]{0pt}{5.5ex}  Mittelwert& 145,4&  -\\ 
+	\hline 
+	\end{tabular} 
+	\end{center}
+	
+	\begin{center}
+		
+	\begin{tabular}{|c|c|c|}
+	\hline \rule[-2ex]{0pt}{5.5ex}  Index&  Gewicht&  $x(i)-\overline{x}$\\ 
+	\hline \rule[-2ex]{0pt}{5.5ex}  1&  		112&  	$1115,56$\\ 
+	\hline \rule[-2ex]{0pt}{5.5ex}  2&  		132&  	$179,56$\\ 
+	\hline \rule[-2ex]{0pt}{5.5ex}  3&  		136&  	$88,36$\\
+	\hline \rule[-2ex]{0pt}{5.5ex}  4&  		143&  	$5,76$\\ 
+	\hline \rule[-2ex]{0pt}{5.5ex}  5&  		145&  	$0,16$\\ 
+	\hline \rule[-2ex]{0pt}{5.5ex}  6&  		151&  	$31,36$\\ 
+	\hline \rule[-2ex]{0pt}{5.5ex}  7&  		152&  	$43,56$\\
+	\hline \rule[-2ex]{0pt}{5.5ex}  8&  		152&  	$43,56$\\
+	\hline \rule[-2ex]{0pt}{5.5ex}  9&  		159&  	$182,96$\\
+	\hline \rule[-2ex]{0pt}{5.5ex}  10&  		172&  	$707,56$\\
+	\hline \rule[-2ex]{0pt}{5.5ex}  -&  		Summe&  $2400,4$\\ 
+	\hline \rule[-2ex]{0pt}{5.5ex}  -& 			$s^2$&  $240,04$\\ 
+	\hline \rule[-2ex]{0pt}{5.5ex}  -& 			$s$&  	$15,49$\\
+	\hline 
+	\end{tabular} 
+	\end{center}
+	
+	%Aufgabe 1m
+	\item Zeichnen Sie den zu dieser Verteilung (unklassierte Daten) passende Boxplot.
+	\newline
+	\newline
+	Lösung:
+	\newline
+	Minimum $x_{min} =112$\newline
+	Maximum  $x_{max} =172$\newline
+	unteres Quantil $x_{0,25}=136$\newline
+	unteres Quantil $x_{0,75}=152$\newline
+	Median $x_{0,5}=148$\newline
+	arithmetisches Mittel $\overline{x}=1145,4$\newline
+	\newline
+	\newline
+	Grafik fehlt
+	\newline
+	
+	%Aufgabe 1n
+	\item Wenn man den Wert 136 durch 316 ersetzt (Schreibfehler), wie wirkt das dann auf den Mittelwert, die Standardabweichung, den Median und die Quantile aus (nur qualitativ: also wächst/fällt leicht/stark)?
+	\newline
+	\newline
+	Lösung:
+	\newline
+	$136 \rightarrow 316$
+	$x_{(0,5)}$ wächst leicht 				\newline
+	Quantile wachsen langsam oder nicht		\newline
+	Quartilsabstand wächst leicht			\newline
+	$\overline{x}$ wächst stark				\newline
+	s sehr stark							\newline
+	\newline
+	
+	
+\end{enumerate}
+
+\section{Aufgabe E2}
+Ordnen Sie die Werte den passenden Histogrammen zu:
+
+
+\begin{center}
+\begin{tabular}{cccc}
+Nr. & Mittelwert & Median & Standartabweichung\\
+\hline
+1 & 10 & 6 & 7,9\\
+2 & 10 & 8 & 3,7\\
+3 & 10 & 10 & 2,2\\
+4 & 10 & 10 & 6,1\\
+5 & 10 & 10 & 9,2\\
+6 & 10 & 11 & 6,2\\
+\end{tabular}
+\end{center}
+
+\begin{figure}[!htbp]
+\centering
+\fbox{\includegraphics[width=0.9\linewidth]{./Grafiken/E2Grafik.jpg}}
+\caption{a)=5, b)=4, c)=1, d)=2, e)=3, f)=6}
+\end{figure}
+\newpage
+
+\underline{Lösung:}
+\begin{center}
+\begin{tabular}{cccc}
+Nr. & Mittelwert & Median & Standartabweichung\\
+\hline
+a) & 10 & 10 & 9,2\\
+b) & 10 & 10 & 6,1\\
+c) & 10 & 6 & 7,9\\
+d) & 10 & 8 & 3,7\\
+e) & 10 & 10 & 2,2\\
+f) & 10 & 11 & 3,2\\
+\end{tabular}
+\end{center}
+
+
+
+\section{Aufgabe E3}
+
+\begin{enumerate}[leftmargin=1cm, label=\alph*)]
+	\item Fünf medizinische Untersuchungsinstitute gaben als erforderlichen Zeitaufwand für die Bestimmung der Blutbestandteile die folgenden Zeitdauern je Blutprobe in Minuten an:
+	
+	\begin{center}
+	\begin{tabular}{l|ccccc}
+	Institut & 1 & 2 & 3 & 4 & 5\\
+	\hline
+	Dauer & 8 & 1 & 2 & 3 & 6\\
+	\end{tabular}
+	\end{center}
+	
+	\begin{enumerate}[label=\arabic*)]
+		\item Berechnen Sie den mittleren Zeitaufwand, falls jedes Institut gleich viele Untersuchungen vornimmt.
+		
+		\item Berechnen Sie den mittleren Zeitaufwand für die Bestimmung der Blutbestandteile,
+		falls alle Institute über denselben Zeitraum von 8 Stunden ununterbrochen Blutproben
+		untersuchen.
+	\end{enumerate}
+	
+	\item Man beobachtet das Wachstum von Schnittlauch, der zu Beginn des Beobachtungszeitraumes 5 cm hoch ist. Nach einer Woche ist er um 150\% gewachsen. Während der zweiten Woche wächst er um 20\% und während der dritten Woche um 45\%.Berechnen Sie das
+	durchschnittliche Wachstum der Pflanze pro Woche.
+\end{enumerate}
+%Aufgabe 4
+\section{Aufgabe E4}
+
+Über eine Person sei bekannt, dass sie viel liest und zwar:
+\newline
+\newline
+{\small
+\renewcommand{\arraystretch}{1,5}
+\begin{tabular}{|l|l|l|l|l|l|}
+\hline
+Jahr & Anz. Bücher & Median d. Seit. & M-wert d. Sz. & 0,95-Quantil d. Sz. & Standartabw. d. Sz.\\
+\hline
+2008 & 90 & 350 & 400 & 710 & 90\\
+\hline
+2009 & 55 & 450 & 500 & 800 & 100\\
+\hline
+\end{tabular}
+}
+\newline
+\newline
+Bestimmen Sie so genau wie möglich: den Mittelwert, den Median, das 0,95-Quantil und die Standardabweichung des gesamten Zeitraumes 2008-2009.
+\newline
+\newline
+\underline{Lösung:}
+\newline
+\newline
+$\overline{x}$ , $x_j$, ..., für 2008 \newline
+$\overline{y}$ , $y_j$, ..., für 2009 \newline
+$\overline{z}$ , $z_j$, ..., für Gesamtzeitraum \newline
+\newline
+$\overline{z} = \frac{(nx\cdot\overline{x}+n_y\cdot\overline{y})}{n_x+n_y} = \frac{1}{145} \cdot (90 \cdot 400 + 55 \cdot 500) = 438$ \newline
+\newline
+$\overline{z}_{0,5} \in [min (x_{0,5}, y_{0,5)}, max(x_{0,5}, y_{0,5)}] = [350, 450]$ \newline
+$\overline{z}_{0,95} \in [min (x_{0,95}, y_{0,95}), max(x_{0,95}, y_{0,95}] = [710, 800]$ \newline
+$s_{z}^2 = \frac{1}{n_x+n_y} \cdot (n_x \cdot sx^2 + n_y \cdot s_{y}^2) + \frac{1}{n_x+n_y} \cdot (n_x (\overline{x} - \overline{z})^2) + ny \cdot (\overline{y} - \overline{z})$ \newline
+$s_z = 106 \ge min(s_{x}, x_{y})$ \newline
+$\ge$ bedeutet: immer
+Bestimmen Sie so genau wie möglich: den Mittelwert, den Median, das 0,95-Quantil und die Standardabweichung des gesamten Zeitraumes 2008-2009.\pagebreak
+
+\section{Aufgabe E5}
+Gegeben sei die Kontingenztafel für die Merkmale X Baumart (Ulme, Kiefer, Fichte) und Y Schädlingsbefall
+durch Borkenkäfer (kein, gering, mittel, groß)
+\newline
+\newline
+Tabelle Aufgabe E5
+\newline
+\newline
+\begin{enumerate} [leftmargin=1cm, label=\alph*)]
+	\item Berechnen Sie die Randverteilungen in Wahrscheinlichkeiten
+	\item Man bestimme die bedingte Verteilung von Y bedingt auf X =Ulme.
+	\item Sind die Merkmale unabhängig? 
+\end{enumerate}
+
+\section{Aufgabe E6}
+Drei Stichproben mit den Umfängen 10, 30 und 60 werden zu einer
+Gesamtstichprobe vom Umfang 100 zusammengefasst. Die Mittelwerte dieser Stichproben seien 64, 50 und 58. Konstruieren Sie ein möglichst einfaches Beispiel, für das der empirische Median der Gesamtstichprobe in obiger Situation gleich 0 ist.
+
+\section{Aufgabe E7}
+Um den absoluten Nullpunkt der Temperatur zu bestimmen, kann man in einem eingeschlossenen Gas bei
+konstantem Volumen die Temperatur und den Druck messen. Die nachfolgende Tabelle gibt die Messwerte
+an.
+Es gilt: Wenn der Druck auf Null gesenkt wird, ist der absolute Nullpunkt der Temperatur erreicht.
+
+\begin{enumerate} [leftmargin=1cm, label=\alph*)]
+	\item Bestimmen Sie den Korrelationskoeffizient.
+	\item Bestimmen Sie eine zur Frage passende Regressionsgerade und bestimmen Sie damit einen Näherungswert für die Temperatur am absoluten Nullpunktes in °C.
+\end{enumerate}
+Tabelle Aufgabe E7
+\newline
+\newline
+Hilfe: Sie dürfen verwenden, dass:
+\newline
+\[ \dfrac{1}{11} \sum_{i=1}^{11}t_{i}=59,8;  
+\dfrac{1}{11} \sum_{i=1}^{11}t_{i}=4156,7;
+\dfrac{1}{11} \sum_{i=1}^{11}t_{i}=1100,8;
+\dfrac{1}{11} \sum_{i=1}^{11}t_{i}=1218115;
+\dfrac{1}{11} \sum_{i=1}^{11}t_{i}=67742; \]\pagebreak
+
+\section{Aufgabe E8}
+In einer Studie soll der Zusammenhang zwischen den Merkmalen Farbenblindheit und Geschlecht untersucht werden.
+Der Anteil der M¨ anner an der Bevölkerung beträgt ungefähr 48.6%. Weiter sei bekannt, dass der Anteil der
+Farbenblinden unter den Männern 7% beträgt, unter den Frauen dagegen nur 1.5%.
+\begin{enumerate} [label=\alph*)]
+	\item Wie groß ist die Wahrscheinlichkeit, dass eine rein zufällig ausgewählte Person farbenblind ist? (Kurz: Wieviel Prozent der Bevölkerung sind farbenblind?)
+	\item Sind die Ereignisse Person ist weiblichen Geschlechts und Person ist farbenblind unabhängig?
+	\item Wie groß ist die Wahrscheinlichkeit, dass eine zufällig ausgewählte Person männlichen Geschlechts ist, unter der Bedingung, dass die Person farbenblind ist? (Kurz: Wie groß ist der Anteil an Männern unter den Farbenblinden?)
+\end{enumerate}
+
+\section{Aufgabe E9}
+Der Tutor kennt die Arbeitsgruppe der Studenten A,B,C schon seit längerem und weiß, dass Student A $80\%$, Student B $15\%$ und Student C lediglich $5\%$ der Aufgaben bearbeitet und die Studenten so organisiert sind, dass keine Aufgabe doppelt bearbeitet wird. Aufgrund ihrer unterschiedlicher Erfahrung lösen sie die Aufgaben mit einer Wahrscheinlichkeit von $90\%$, $50\%$ bzw. lediglich $10\%$ richtig. Der Tutor hat von der Arbeitsgruppe eine fehlerhafte Lösung bekommen. Mit welcher Wahrscheinlichkeit stammt die Lösung von welchem der drei Studenten?
+
+\section{Aufgabe E10}
+In einer Bevölkerungsgruppe werden Personen zufällig ausgewählt und ihre Cholesterinmenge im Blut ermittelt.
+Es sei X das Alter der untersuchten Person, Y die Cholesterinmenge (in $mg/l$) im Blut und $Z$ gebe an, ob die Person Diabetiker ist ($Z = 1$, falls Diabetiker; $Z = 0$, sonst). Es sind folgende Wahrscheinlichkeiten bekannt:
+
+\begin{onehalfspace}
+\begin{tabbing}
+\hspace*{4cm}\=\kill
+\>$P(\{50 < X \le 60\}) = 0.13,$\\
+\>$P(\{X \le 60\} \cap \{Z = 1\}) = 0.05,$\\
+\>$P(\{X \le 60\} \cap \{Z = 0\}) = 0.75,$\\
+\>$P(\{X \le 60\} \cap \{Y \le 150\} \cap \{Z = 1\}) = 0.01,$\\
+\>$P(\{50 < X \le 60\} \cap \{Z = 0\}) = 0.01.$\\
+\end{tabbing}
+\end{onehalfspace}
+
+\noindent Berechnen Sie die Wahrscheinlichkeiten der folgenden Ereignisse:
+\begin{enumerate} [leftmargin=1cm, label=\alph*)]
+	\item $\{X > 60\}$
+	\item $\{X \le 50\}$
+	\item $\{X \le 50\} \cap \{Z = 0\}$
+	\item $\{X \le 60\} \cap \{Y > 150\} \cap \{Z = 1\}$
+	\item Eine zufällig ausgewählte Person ist
+	\begin{enumerate}[label=\roman*)]
+	\item älter als 60 Jahre oder Diabetiker
+	\item höchstens 50 Jahre alt, oder höchstens 60 Jahre alt und nicht Diabetiker
+	\end{enumerate}
+\end{enumerate}
+
+\section{Aufgabe E11}
+In einem Wahrscheinlichkeitsraum $(\Omega, \mathcal A , P )$ seien zwei Ereignisse $A$ und $B$ mit $A \cup B = \Omega$ gegeben. Zeigen Sie:
+
+
+
+
+
+
+
+
+\end{document}

@@ -1,0 +1,3 @@
+Im ordner befinden sich nur die Tex-Files!!!
+
+Wer die PDF erstellen will, soll sich die Datei seperat speichern und danach erst die PDF von dort aus erstellen!!!
