@@ -10,17 +10,186 @@
 \usepackage[T1]{fontenc}
 \usepackage[ngerman]{babel}
 \usepackage{enumitem}
-\usepackage{blindtext} 
+\usepackage{blindtext}
 \usepackage{a4wide}
-\usepackage{setspace} 
+\usepackage{setspace}
 \begin{document}
 
 \section{Kapitel 1-3}
 
-\subsection{title}
+\subsection{Aufgabe 1}
 Die folgende Tabelle enthält die Merkmalswerte zweier Merkmale X und Y an 5 Merkmalsträgern. Bestimmen Sie (ohne einen Taschenrechner zu benutzen!) die arithmetischen Mittelwerte, Varianzen, Mediane und oberen Quartile von X und Y.
+\newline
+\newline
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline i & 1& 2& 3& 4& 5\\
+\hline $x_{i}$	& 0& 1& 2& 1& 2\\
+\hline $y_{i}$	& 1& 0& 1& 2& 3\\
+\hline
+\end{tabular}
+\end{center}
+
+\subsection{Aufgabe 2}
+Am 11. Juli 2012 gab das Statistische Bundesamt bekannt, dass 20\% der Bevölkerung in
+Deutschland allein im Haushalt leben, also einen Single-Haushalt bilden. Andererseits seien
+40,4\% aller Haushalte derartige Single-Haushalte. Bestimmen Sie aus diesen Informationen
+die durchschnittliche Haushaltsgröße!
+\subsection{Aufgabe 3}
+Für die Messung von (wirtschaftlicher) Armut gibt es mehrere Definitionen. Häufig wird ein
+Haushalt (vereinfacht) als arm definiert, wenn das Haushaltseinkommen weniger als 60\% des
+Medianhaushaltseinkommens beträgt. Alternativ könnte man einen Haushalt als arm
+definieren, wenn das Haushaltseinkommen weniger als 60\% des arithmetischen Mittels aller
+Haushaltseinkommen beträgt. Erläutern Sie, nach welcher dieser beiden Armutsdefinitionen
+in Deutschland mehr Haushalte als arm bezeichnet würden!
+\subsection{Aufgabe 4}
+Gegeben sei ein Merkmal X in einer Gesamtheit vom Umfang n mit arithmetischen Mittel x
+und Standardabweichung s. Das Merkmal Y sei definiert durch: $y_{i}=\dfrac{x_{i}*\overline{x}}{s}$ für i = 1, ..., n
+Zeigen Sie: das arithmetische Mittel von Y beträgt 0, und die Varianz von Y beträgt 1.
+\subsection{Aufgabe 5}
+Aufgabe 5
+Zeigen Sie: Für eine gegebene Häufigkeitsverteilung eines metrischen Merkmals X mit
+Ausprägungen $x_{1}$, $x_{2}$, ..., $x_{k}$ und relativen Häufigkeiten $f_{1}$, $f_{2}$, ..., $f_{k}$
+besitzt die Funktion:
+\newline	\newline
+$f:\mathbb{R}\rightarrow \mathbb{R}$; $t\rightarrow f(t)= \sum_{i=1}^k (x_{i}-t)^2 * f_{i}$	\newline	\newline
+in $t_{0} = \overline{x}$ (arithmetisches Mittel von X) das globale Minimum.
+\newline
+\newline
+a; Geben Sie die tatsächlich vorkommenden Merkmalsausprägungen und die jeweiligen relativen Häufigkeiten an!
+\newline
+b; Welcher Anteil der Mütter ist älter als 26 Jahre?
+\subsection{Aufgabe 6}
+Die folgende empirische Verteilungsfunktion beschreibt die Verteilung des Merkmals "Alter" in der aktuellen Gesamtheit aller Mütter auf der Entbindungsstation einer großen Klinik. \newline \newline
+\begin{center}
+\begin{figure}[!htbp]
+\fbox{\includegraphics[width=0.9\textwidth,page=1]{./Grafiken/AB_1_6.jpg}} \caption{Erklärung}
+\end{figure}
+\end{center}
+
+\begin{enumerate} [label=\alph*)]
+\item Geben Sie die tatsächlich vorkommenden Merkmalsausprägungen und die jeweiligen relativen Häufigkeiten an!
+\item Welcher Anteil der Mütter ist älter als 26 Jahre?
+\end{enumerate}
+
+
+\subsection{Aufgabe 7}
+Ein Merkmal X besitze nur die beiden Ausprägungen 0 und 1. Die relative Häufigkeit der
+Ausprägung 1 wird in diesem Fall auch mit $\pi$(Anteil, Anteilswert) bezeichnet. Zeigen Sie, dass in diesem Fall für die Varianz von X gilt:
+
+\subsection{Aufgabe 8}
+Das folgende Säulendiagramm zeigt die Verteilung des Merkmals "Kinderzahl" für alle
+Haushalte eines bestimmten Wohnviertels.
+\begin{center}
+\begin{figure}[!htbp]
+\fbox{\includegraphics[width=0.9\textwidth,page=1]{./Grafiken/AB_1_8.jpg}} \caption{Erklärung}
+\end{figure}
+\end{center}
+\begin{enumerate} [label=\alph*)]
+\item Berechnen Sie für diese Verteilung das arithmetische Mittel, die Varianz, die Spannweite, den Median und den Quartilsabstand! Skizzieren Sie den zugehörigen Boxplot!
+\item Im daneben liegenden Wohnviertel mit 100 Haushalten gibt es insgesamt 250 Kinder; die Varianz des Merkmals "Kinderzahl" beträgt unter diesen Haushalten 3. Bestimmen Sie das arithmetische Mittel und die Varianz dieses Merkmals in der Gesamtheit aller Haushalte, wenn man die beiden Wohnviertel zusammen betrachtet!
+\end{enumerate}
+
+
+\subsection{Aufgabe 9}
+Sechs Schüler haben eine Prüfung absolviert; jede der (ganzzahligen) Noten von 1 bis 6
+wurde dabei vergeben. Bestimmen Sie mit dem Taschenrechner oder einer Software Ihrer
+Wahl die Varianz des Merkmals "Prüfungsnote". Versuchen Sie durch Ausprobieren
+herauszufinden, bei welcher Notenverteilung die Varianz maximiert worden wäre!
+
+\subsection{Aufgabe 10}
+Die so genannte Lebenserwartung einer Personengruppe ist (vereinfacht) das arithmetische
+Mittel der (prognostizierten) vollendeten Lebensjahre zum Sterbezeitpunkt der einzelnen
+Personen (Sterbealter in ganzen Jahren). Nach einem Zeitungsartikel lag 1871 die
+Lebenserwartung eines Neugeborenen (im damaligen Deutschen Reich) bei 38 Jahren; 230
+von 1000 Säuglingen starben dabei schon während des ersten Lebensjahres. Im Jahr 2011 lag
+die Lebenserwartung eines Neugeborenen in Deutschland bei 80 Jahren; nur 4 von 1000
+Säuglingen starben während des ersten Lebensjahres. Wie hat sich die Lebenserwartung von
+Personen, die das erste Lebensjahr überlebt haben, von 1871 bis 2011 verändert?
+\subsection{Aufgabe 11}
+Die folgende approximierende Verteilungsfunktion beschreibt die Verteilung des Merkmals
+"Alter" in der aktuellen Gesamtheit aller Mitglieder des Kreisverbands einer Partei. Zur
+Bestimmung dieser Verteilungsfunktion wurde das Merkmal in sechs Klassen eingeteilt.
+
+\begin{center}
+\begin{figure}[!htbp]
+\fbox{\includegraphics[width=0.9\textwidth,page=1]{./Grafiken/AB_1_11.jpg}} \caption{Erklärung}
+\end{figure}
+\end{center}
+
+\begin{enumerate} [label=\alph*)]
+\item Geben Sie die Klassengrenzen und die jeweiligen relativen Häufigkeiten innerhalb der
+Klassen an!
+\item Bestimmen Sie approximativ anhand der Grafik (keine Rechnung nötig!) den Median
+dieser Verteilung!
+\item Welcher (approximative) Anteil der Parteimitglieder ist 70 Jahre oder älter? (Keine
+Rechnung nötig!)
+\end{enumerate}
+
+
+
+\subsection{Aufgabe 12}
+Ein metrisches Merkmal X wird in zwei verschiedenen Teilgruppen beobachtet. In beiden
+Teilgruppen wurden Minimum, Maximum, Median und arithmetisches Mittel berechnet:
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline Minimum & Maximum & Median & arithmetisches Mittel & Größe der Teilgruppe\\
+\hline 0 & 4 & 3 & 2 & 20 \\
+\hline 3 & 9 & 5 & 6 & 30 \\
+\hline
+\end{tabular}
+\end{center}
+Berechnen Sie, falls möglich, aus den angegebenen Werten das gesamte arithmetische Mittel,
+den gesamten Median, die gesamte Spannweite und die gesamte Varianz von X, wenn die 50
+betrachteten Merkmalsträger als Gesamtheit angesehen werden. Falls Ihnen die Berechnung
+einiger oder aller Maßzahlen nicht möglich ist, geben Sie an, welche zusätzlichen
+Informationen Sie dazu jeweils bräuchten. Geben Sie für alle Maßzahlen, die Sie nicht
+berechnen können, möglichst kleine Intervalle an, in denen die Maßzahlen mit Sicherheit
+liegen.
+
+\subsection{Aufgabe 13}
+Das folgende Stabdiagramm zeigt die Verteilung des Merkmals X=?Anzahl der Ausfälle in
+einem Netzwerk pro Woche? innerhalb eines bestimmten Zeitraums.
+\newline	\newline
+\begin{figure}[!htbp]
+\fbox{\includegraphics[width=0.9\textwidth,page=1]{./Grafiken/AB_1_13.jpg}} \caption{Entity-Relation Diagramm der Datenbank}
+\end{figure}
+
+\newpage
+\begin{enumerate} [label=\alph*)]
+\item Bestimmen Sie die beiden Quartile und den Median von X!
+\item Insgesamt sind im betrachteten Zeitraum 217 Ausfälle beobachtet werden. Die Summe
+der quadrierten Ausfallzahlen (pro Woche) beträgt 1155. Bestimmen Sie daraus die
+Varianz von X!
+\end{enumerate}
+
+\subsection{Aufgabe 14}
+Ein kleiner Betrieb stellt 5 verschiedene Artikel her. Die folgende Tabelle zeigt die
+Jahresumsätze der jeweiligen Artikel. Skizzieren Sie die Lorenzkurve, die die Konzentration
+der Umsätze veranschaulicht.
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline Minimum & Maximum \\
+\hline A & 100 \\
+B & 80 \\
+C & 150 \\
+D & 30 \\
+E & 30 \\
+\hline
+\end{tabular}
+\end{center}
+
+
+\section{Kapitel 4-}
+\subsection{Aufgabe }
+\subsection{Aufgabe }
+\subsection{Aufgabe 4}
+\subsection{Aufgabe 4}
+\subsection{Aufgabe 4}
+\subsection{Aufgabe 4}
 
 
 
 
 \end{document}
+
