@@ -13,6 +13,7 @@
 \usepackage{blindtext} 
 \usepackage{a4wide}
 \usepackage{setspace} 
+\usepackage{eurosym}
 \begin{document}
 
 \section{Aufgabe E1}
@@ -518,6 +519,44 @@ Wahrscheinlichkeit ist die größere > 80 unter der Bedingung, dass die kleinere
 Ein Medikament zeigt unabhängig voneinander zwei Wirkungen: die nicht sofort erkennbare Heilwirkung
 mit Wahrscheinlichkeit $\frac{4}{5}$ und die sofort erkennbare Nebenwirkung mit Wahrscheinlichkeit $\frac{3}{10}$. Durch ein Versehen habe $1\%$ dieses Medikamentes eine falsche Dosierung, die eine Wahrscheinlichkeit von $\frac{1}{5}$ für die Heilwirkung bzw. $\frac{1}{2}$ für die Nebenwirkung besitzt. Wie groß ist die Wahrscheinlichkeit der Heilwirkung bei Eintritt bzw. Ausbleiben der Nebenwirkung?
 
+\section{Aufgabe E25}
+Ein Kommilitone hat Ihnen seinen Notizzettel zu den Statistik-Aufgaben überlassen. In den entsprechenden
+Aufgaben waren eine Dichte bzw. eine Verteilungsfunktion gesucht, welche der drei Funktionen, die Sie auf
+dem Zettel finden, könnte wozu passen?
+Bestimmen Sie im Falle einer Dichte die zugehörige Verteilungsfunktion. Skizzieren Sie im Falle der Verteilungsfunkton
+diese Funktion, was folgt daraus für die zugehörige Zufallsvariable?
+\begin{enumerate} [leftmargin=1cm, label=\alph*)]
+	\item $f(x)=\begin{cases}
+		4 \cdot e^{-2x}$ \hspace{10pt}für $ x \in [0, \frac{\ln{2}}{2}] \\
+		0$ \hspace{1.4cm}sonst $\\
+		\end{cases}$
+	\item $g(x)=\begin{cases}
+			1 - x^2$ \hspace{10pt}für $ x \in [-1, 1] \\
+			0$ \hspace{1.25cm}sonst $\\
+			\end{cases}$
+	\item $hf(x)=\begin{cases}
+			1 - \frac{1}{2} \cdot e^{-\frac{1}{2}x}$ \hspace{10pt}für $ x \in [0, \infty] \\
+			0$ \hspace{1.4cm}sonst $\\
+			\end{cases}$
+\end{enumerate}
+
+\section{Aufgabe E26}
+Eine Fluggesellschaft nimmt Sitzplatzbuchungen für ein kleines Flugzeug mit 20 Plätzen entgegen. Da sie
+aus Erfahrung weiß, dass jeder Passagier (unabhängig von den anderen Passagieren) mit Wahrscheinlichkeit $\frac{1}{3}$ nicht erscheint, nimmt sie 25 Anmeldungen entgegen.
+\begin{enumerate} [leftmargin=1cm, label=\alph*)]
+	\item Mit welcher Wahrscheinlichkeit kommen mehr Passagiere als das Flugzeug Sitzplätze hat?
+	\item Wenn Sie jedem Fluggast den Sie nicht transportieren können einen Betrag von 500 \euro \newline ausbezahlen, wieviel müssen Sie dann im Mittel als Entschädigung bezahlen?
+\end{enumerate}
+
+\section{Aufgabe E27}
+Gegeben seien zwei geometrische Zufallsvariablen $X,Y$ mit Parameter $p$ bzw. $q$
+\newline (d.h. $P(X=k) = p \cdot {(1-p)}^{k-1}$ für $k \in \{1,2,3,...\}).$
+\newline Die beiden Zufallsvariablen seien unabhängig, d.h. $P(X=k,Y=j) = P(X=k) \cdot P(Y=j).$
+\newline Bestimmen Sie: 
+\begin{enumerate} [leftmargin=1cm, label=\alph*)]
+	\item $P(X>k)$ für $k \in \{1,2,3,...\}$
+	\item $P(\min(X,Y)\le k)$ für $k \in \{1,2,3,...\}$
+\end{enumerate}
 
 
 
