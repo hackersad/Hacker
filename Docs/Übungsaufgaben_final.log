@@ -1,7 +1,8 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.5.8)  3 JUL 2014 15:10
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.5.8)  3 JUL 2014 16:02
 entering extended mode
 **Übungsaufgaben_final.tex
-(C:\Users\Matthias\Documents\Statistik\Übungsaufgaben_final.tex
+
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\Übungsaufgaben_final.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -466,8 +467,44 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
 \@eurobox=\box34
 )
-(C:\Users\Matthias\Documents\Statistik\Übungsaufgaben_final.aux
-(C:\Users\Matthias\Documents\Statistik\chapters\E01.aux))
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\Übungsaufgaben_final.aux
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E01.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E02.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E03.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E04.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E05.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E06.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E07.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E08.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E09.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E10.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E11.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E12.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E13.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E14.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E15.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E16.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E17.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E18.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E19.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E20.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E21.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E22.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E23.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E24.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E25.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E26.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E27.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E28.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E29.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E30.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E31.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E32.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E33.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E34.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E35.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E36.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E37.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
@@ -512,11 +549,12 @@ LaTeX Info: Redefining \ref on input line 20.
 LaTeX Info: Redefining \pageref on input line 20.
 LaTeX Info: Redefining \nameref on input line 20.
 
-(C:\Users\Matthias\Documents\Statistik\Übungsaufgaben_final.out)
-(C:\Users\Matthias\Documents\Statistik\Übungsaufgaben_final.out)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\Übungsaufgaben_final.out
+)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\Übungsaufgaben_final.out
+)
 \@outlinefile=\write3
-
-(C:\Users\Matthias\Documents\Statistik\chapters\E01.tex
+ (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E01.tex
 LaTeX Font Info:    Try loading font information for T1+cmss on input line 1.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmss.fd"
@@ -609,105 +647,254 @@ Underfull \hbox (badness 10000) in paragraph at lines 180--189
 
  []
 
-[5]) [6] (C:\Users\Matthias\Documents\Statistik\chapters\E02.tex)
-(C:\Users\Matthias\Documents\Statistik\chapters\E03.tex)
-(C:\Users\Matthias\Documents\Statistik\chapters\E04.tex)
-(C:\Users\Matthias\Documents\Statistik\chapters\E05.tex)
-(C:\Users\Matthias\Documents\Statistik\chapters\E06.tex)
-(C:\Users\Matthias\Documents\Statistik\chapters\E07.tex)
-(C:\Users\Matthias\Documents\Statistik\chapters\E08.tex)
-(C:\Users\Matthias\Documents\Statistik\chapters\E09.tex)
-(C:\Users\Matthias\Documents\Statistik\chapters\E11.tex)
-(C:\Users\Matthias\Documents\Statistik\chapters\E12.tex)
-(C:\Users\Matthias\Documents\Statistik\chapters\E13.tex)
-(C:\Users\Matthias\Documents\Statistik\chapters\E14.tex)
-(C:\Users\Matthias\Documents\Statistik\chapters\E15.tex)
-(C:\Users\Matthias\Documents\Statistik\chapters\E16.tex)
-(C:\Users\Matthias\Documents\Statistik\chapters\E17.tex)
-(C:\Users\Matthias\Documents\Statistik\chapters\E18.tex)
-(C:\Users\Matthias\Documents\Statistik\chapters\E19.tex)
-(C:\Users\Matthias\Documents\Statistik\chapters\E21.tex)
-(C:\Users\Matthias\Documents\Statistik\chapters\E22.tex)
-(C:\Users\Matthias\Documents\Statistik\chapters\E23.tex)
-(C:\Users\Matthias\Documents\Statistik\chapters\E24.tex)
-(C:\Users\Matthias\Documents\Statistik\chapters\E25.tex)
-(C:\Users\Matthias\Documents\Statistik\chapters\E26.tex)
-(C:\Users\Matthias\Documents\Statistik\chapters\E27.tex)
-(C:\Users\Matthias\Documents\Statistik\chapters\E28.tex)
-(C:\Users\Matthias\Documents\Statistik\chapters\E29.tex)
-(C:\Users\Matthias\Documents\Statistik\chapters\E30.tex)
-(C:\Users\Matthias\Documents\Statistik\chapters\E31.tex)
-(C:\Users\Matthias\Documents\Statistik\chapters\E32.tex)
-(C:\Users\Matthias\Documents\Statistik\chapters\E33.tex)
-(C:\Users\Matthias\Documents\Statistik\chapters\E34.tex)
-(C:\Users\Matthias\Documents\Statistik\chapters\E35.tex)
-(C:\Users\Matthias\Documents\Statistik\chapters\E36.tex)
-(C:\Users\Matthias\Documents\Statistik\chapters\E37.tex)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 63.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 63.
+[5]) [6] (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E02.tex
+[7
 
-(C:\Users\Matthias\Documents\Statistik\Übungsaufgaben_final.aux
-(C:\Users\Matthias\Documents\Statistik\chapters\E01.aux)
-(C:\Users\Matthias\Documents\Statistik\chapters\E02.aux)
-(C:\Users\Matthias\Documents\Statistik\chapters\E03.aux)
-(C:\Users\Matthias\Documents\Statistik\chapters\E04.aux)
-(C:\Users\Matthias\Documents\Statistik\chapters\E05.aux)
-(C:\Users\Matthias\Documents\Statistik\chapters\E06.aux)
-(C:\Users\Matthias\Documents\Statistik\chapters\E07.aux)
-(C:\Users\Matthias\Documents\Statistik\chapters\E08.aux)
-(C:\Users\Matthias\Documents\Statistik\chapters\E09.aux)
-(C:\Users\Matthias\Documents\Statistik\chapters\E11.aux)
-(C:\Users\Matthias\Documents\Statistik\chapters\E12.aux)
-(C:\Users\Matthias\Documents\Statistik\chapters\E13.aux)
-(C:\Users\Matthias\Documents\Statistik\chapters\E14.aux)
-(C:\Users\Matthias\Documents\Statistik\chapters\E15.aux)
-(C:\Users\Matthias\Documents\Statistik\chapters\E16.aux)
-(C:\Users\Matthias\Documents\Statistik\chapters\E17.aux)
-(C:\Users\Matthias\Documents\Statistik\chapters\E18.aux)
-(C:\Users\Matthias\Documents\Statistik\chapters\E19.aux)
-(C:\Users\Matthias\Documents\Statistik\chapters\E21.aux)
-(C:\Users\Matthias\Documents\Statistik\chapters\E22.aux)
-(C:\Users\Matthias\Documents\Statistik\chapters\E23.aux)
-(C:\Users\Matthias\Documents\Statistik\chapters\E24.aux)
-(C:\Users\Matthias\Documents\Statistik\chapters\E25.aux)
-(C:\Users\Matthias\Documents\Statistik\chapters\E26.aux)
-(C:\Users\Matthias\Documents\Statistik\chapters\E27.aux)
-(C:\Users\Matthias\Documents\Statistik\chapters\E28.aux)
-(C:\Users\Matthias\Documents\Statistik\chapters\E29.aux)
-(C:\Users\Matthias\Documents\Statistik\chapters\E30.aux)
-(C:\Users\Matthias\Documents\Statistik\chapters\E31.aux)
-(C:\Users\Matthias\Documents\Statistik\chapters\E32.aux)
-(C:\Users\Matthias\Documents\Statistik\chapters\E33.aux)
-(C:\Users\Matthias\Documents\Statistik\chapters\E34.aux)
-(C:\Users\Matthias\Documents\Statistik\chapters\E35.aux)
-(C:\Users\Matthias\Documents\Statistik\chapters\E36.aux)
-(C:\Users\Matthias\Documents\Statistik\chapters\E37.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 63.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 63.
+
+]) [8] (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E03.tex) 
+[9
+
+
+] (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E04.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 3--25
+
+ []
+
+
+Overfull \hbox (0.58902pt too wide) in paragraph at lines 3--25
+[]  
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--25
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--25
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--25
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--25
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--25
+
+ []
+
+[10
+
+
+] (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E05.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--9
+
+ []
+
+) [11
+
+
+] (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E06.tex)
+[12
+
+
+] (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E07.tex)
+[13
+
+
+] (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E08.tex)
+[14
+
+
+] (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E09.tex)
+[15
+
+
+] (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E10.tex)
+[16
+
+
+] (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E11.tex)
+[17
+
+
+] (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E12.tex)
+[18
+
+
+] (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E13.tex)
+[19
+
+
+] (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E14.tex)
+[20
+
+
+] (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E15.tex)
+[21
+
+
+] (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E16.tex)
+[22
+
+
+] (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E17.tex)
+[23
+
+
+] (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E18.tex)
+[24
+
+
+] (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E19.tex)
+[25
+
+
+] (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E20.tex)
+[26
+
+
+] (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E21.tex)
+[27
+
+
+] (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E22.tex)
+[28
+
+
+] (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E23.tex)
+[29
+
+
+] (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E24.tex)
+[30
+
+
+] (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E25.tex)
+[31
+
+
+] (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E26.tex)
+[32
+
+
+] (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E27.tex)
+[33
+
+
+] (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E28.tex)
+[34
+
+
+] (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E29.tex)
+[35
+
+
+] (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E30.tex)
+[36
+
+
+] (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E31.tex)
+[37
+
+
+] (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E32.tex)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E33.tex)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E34.tex)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E35.tex)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E36.tex)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E37.tex)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 65.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 65.
+
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\Übungsaufgaben_final.aux
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E01.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E02.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E03.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E04.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E05.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E06.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E07.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E08.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E09.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E10.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E11.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E12.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E13.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E14.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E15.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E16.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E17.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E18.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E19.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E20.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E21.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E22.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E23.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E24.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E25.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E26.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E27.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E28.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E29.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E30.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E31.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E32.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E33.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E34.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E35.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E36.aux)
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E37.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 65.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 65.
 Package rerunfilecheck Info: File `Übungsaufgaben_final.out' has not changed.
-(rerunfilecheck)             Checksum: 9EC60EAADDBCB23D67C0D6956FD8B84A;2580.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 63.
+(rerunfilecheck)             Checksum: C2C0FA8B535927D80DFB86B75C84C1E1;5000.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 65.
  ) 
 Here is how much of TeX's memory you used:
- 10968 strings out of 493921
- 167112 string characters out of 3147274
- 282230 words of memory out of 3000000
- 13909 multiletter control sequences out of 15000+200000
- 12148 words of font info for 37 fonts, out of 3000000 for 9000
+ 11271 strings out of 493921
+ 177516 string characters out of 3147274
+ 305181 words of memory out of 3000000
+ 14014 multiletter control sequences out of 15000+200000
+ 16199 words of font info for 49 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 43i,8n,51p,496b,402s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,9n,51p,617b,402s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sf
-rm1095.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfsx1200.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfsx1440.pfb>
-Output written on Übungsaufgaben_final.pdf (6 pages, 143914 bytes).
+X 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/eurosym/feymr10.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/cm-super/sfbx1095.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/cm-super/sfrm1000.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/cm-super/sfrm1095.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/cm-super/sfsx1200.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-supe
+r/sfsx1440.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfti109
+5.pfb>
+Output written on Übungsaufgaben_final.pdf (37 pages, 307786 bytes).
 PDF statistics:
- 133 PDF objects out of 1000 (max. 8388607)
- 22 named destinations out of 1000 (max. 500000)
- 121 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 503 PDF objects out of 1000 (max. 8388607)
+ 132 named destinations out of 1000 (max. 500000)
+ 409 words of extra memory for PDF output out of 10000 (max. 10000000)
 
