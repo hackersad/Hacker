@@ -34,9 +34,9 @@ E28 fehlt
 E29 fehlt				
 E30 fehlt				
 E31 fehlt				Lv
-E32	done 	Angabe fehlt		
-E33 done 	Angabe fehlt			
-E34 fehlt	Angabe fehlt			
-E35 fehlt	Angabe fehlt		
-E36 fehlt	Angabe fehlt		
-E37 done	Angabe fehlt		Lv
+E32	done 			
+E33 done 				
+E34 fehlt				
+E35 fehlt			
+E36 fehlt			
+E37 done			Lv
