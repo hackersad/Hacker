@@ -1,0 +1,37 @@
+\section{Aufgabe E4}
+
+Über eine Person sei bekannt, dass sie viel liest und zwar:
+\newline
+\newline
+{\small
+\renewcommand{\arraystretch}{1,5}
+\begin{tabular}{|l|l|l|l|l|l|}
+\hline
+Jahr & Anz. Bücher & Median d. Seit. & M-wert d. Sz. & 0,95-Quantil d. Sz. & Standartabw. d. Sz.\\
+\hline
+2008 & 90 & 350 & 400 & 710 & 90\\
+\hline
+2009 & 55 & 450 & 500 & 800 & 100\\
+\hline
+\end{tabular}
+}
+\newline
+\newline
+Bestimmen Sie so genau wie möglich: den Mittelwert, den Median, das 0,95-Quantil und die Standardabweichung des gesamten Zeitraumes 2008-2009.
+\newline
+\newline
+\underline{Lösung:}
+\newline
+\newline
+$\overline{x}$ , $x_j$, ..., für 2008 \newline
+$\overline{y}$ , $y_j$, ..., für 2009 \newline
+$\overline{z}$ , $z_j$, ..., für Gesamtzeitraum \newline
+\newline
+$\overline{z} = \frac{(nx\cdot\overline{x}+n_y\cdot\overline{y})}{n_x+n_y} = \frac{1}{145} \cdot (90 \cdot 400 + 55 \cdot 500) = 438$ \newline
+\newline
+$\overline{z}_{0,5} \in [min (x_{0,5}, y_{0,5)}, max(x_{0,5}, y_{0,5)}] = [350, 450]$ \newline
+$\overline{z}_{0,95} \in [min (x_{0,95}, y_{0,95}), max(x_{0,95}, y_{0,95}] = [710, 800]$ \newline
+$s_{z}^2 = \frac{1}{n_x+n_y} \cdot (n_x \cdot sx^2 + n_y \cdot s_{y}^2) + \frac{1}{n_x+n_y} \cdot (n_x (\overline{x} - \overline{z})^2) + ny \cdot (\overline{y} - \overline{z})$ \newline
+$s_z = 106 \ge min(s_{x}, x_{y})$ \newline
+$\ge$ bedeutet: immer
+Bestimmen Sie so genau wie möglich: den Mittelwert, den Median, das 0,95-Quantil und die Standardabweichung des gesamten Zeitraumes 2008-2009.\pagebreak
