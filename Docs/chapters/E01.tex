@@ -1,0 +1,189 @@
+\section{Aufgabe E1}
+Es soll eine neugezüchtete Kartoffelsorte getestet werden. Dazu wird ein Testfeld ausgewählt, das auf der gesamten Fläche gleiche Wachstumsvoraussetzungen (Bodenqualität, Sonneneinstrahlung etc.) bietet. Nachdem eine gleichmäßige Pflege der Pflanzen erfolgte (Bewässerung, Düngung etc.), wurde von der ersten Ernte auf dem Versuchsfeld eine Stichprobe entnommen, die die folgende Urliste (für das Gewicht der Kartoffeln in g) lieferte:
+
+\begin{center}
+\renewcommand{\arraystretch}{1,5}
+\begin{tabular}{|c|cccccccccc|}
+\hline
+$j$ & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10\\
+\hline
+$x_j$ & 132 & 145 & 172 & 151 & 152 & 136 & 143 & 112 & 159 & 152\\
+\hline
+\end{tabular}
+\end{center}
+
+\subsection{Bestimmen Sie die geordnete Stichprobe.}
+	%Aufgabe 1a
+	\vspace{0.5cm}
+	\begin{center}
+	\begin{tabular}{|c|cccccccccc|}
+	\hline
+	$j$ & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10\\
+	\hline
+	$x_j$ & 112 & 132 & 136 & 143 & 145 & 151 & 152 & 152 & 159 & 172\\
+	\hline
+	\end{tabular}
+	\end{center}
+	
+\subsection{Klassieren Sie die obigen Daten (wählen Sie 4 gleichlange Intervalle) und zeichnen Sie das dazugehörige Histogramm.}
+	
+
+	\begin{tabular}{cc}
+	 Intervalle&Anzahl\\
+	 \hline
+	 $I_{1}=[112,127[$&  $1$\\
+	 $I_{2}=[127,142[$&  $2$\\ 
+	 $I_{3}=[142,157[$&  $5$\\ 
+	 $I_{4}=[157,172[$&  $2$\\ 
+	\end{tabular} 
+	\newline
+	
+	
+	%Aufgabe 1c
+\subsection{Skizzieren Sie die empirische Verteilungsfunktion der unklassierten Daten (F(x) = Anteil der Kartoffeln mit einem Gewicht kleiner gleich x).}
+	\underline{Lösung:}
+		\newpage
+		
+		
+	%Aufgabe 1d
+\subsection{Zeichnen Sie die empirische Verteilungsfunktion der klassierten Daten (wie bei unklassierten Daten außer, dass innerhalb einer Klasse der Anteil als gleichmäßig wachsend betrachtet wird).}
+
+		\underline{Lösung:}
+		\vspace{8cm}
+	
+	
+	%Aufgabe 1e
+\subsection{Berechnen Sie den Mittelwert (=arithmetisches Mittel) der Daten.}
+	\underline{Lösung:}
+	\newline
+	\newline
+	$\overline{x}=\dfrac{1}{10}\sum_{n=0}^N x_{k}$
+	
+	
+	%Aufgabe 1f
+\subsection{Wie gross ist der Modalwert (der am häufigsten vorkommende Wert) der Stichprobe. Ist diese Information brauchbar?}
+	\underline{Lösung:}
+	\newline
+	Modalwert = $152$
+	\newline
+	\newline
+	
+	
+	%Aufgabe 1g
+\subsection{Bestimmen Sie den Median (der Wert, so dass mind. 50\% der Daten kleiner gleich und mind. 50\% der Daten größer gleich diesem sind). Ist dieser Wert eindeutig?}
+	\underline{Lösung:}
+	\newline
+	$x_{0,5}\in[x_{(5)},x_{(6)}]=[145,151]$
+	\newline $x_{0,5}=\dfrac{x_{(5)}+x_{(6)}}{2}$
+	\newline
+	
+	
+	%Aufgabe 1h
+\subsection{Bestimmen Sie das 0,25 Quantil (der Wert, so dass mind. 25\% der Daten kleiner gleich und mind. 75\% der Daten größer gleich diesem sind). Ist dieser Wert eindeutig?}
+
+	\underline{Lösung:}
+	\newline
+	$x_{0,25}=x_{3}=136$
+	\newline
+	
+	
+	%Aufgabe 1i
+\subsection{Bestimmen Sie das 0,75 Quantil (der Wert, so dass mind. 75\% der Daten kleiner gleich und mind. 25\% der Daten größer gleich diesem sind).}
+	\underline{Lösung:}
+	\newline
+	$x_{0,75}=x_{(8)}=152$
+	\newline
+	
+	
+	%Aufgabe 1j
+\subsection{Bestimmen Sie den Quartilsabstand (die Differenz zwischen dem 0,75 und dem 0,25 Quantil)}
+	\underline{Lösung:}
+	\newline
+	Quartilsabstand $x_{0,75}-x_{0,25}=152-136=16$
+	\newline
+	
+	
+	
+	%Aufgabe 1k
+\subsection{Bestimmen Sie das 0,3 Quantil (der Wert, so dass mind. 30\% der Daten kleiner gleich und mind. 70\% der Daten größer gleich diesem sind). Ist dieser Wert eindeutig?}
+	\underline{Lösung:}
+	\newline
+	$x_{0,3}\in[x_{(3)},x_{(5)}]$
+	\newline
+	
+	%Aufgabe 1l
+\subsection{Bestimmen Sie die empirische Varianz und daraus die empirische Standardabweichung.}
+	\underline{Lösung:}
+	\newline
+	empirische Varianz $s=\dfrac{1}{n}\sum_{i=1}^n(x_{i}-\overline{x})$
+	\newline
+	empireische Standartabweichung $\sqrt{s^2}=\sqrt{\dfrac{1}{n}\sum_{i=1}^n(x_{i}-\overline{x}}$
+	\newline
+	\begin{center}
+	
+	\begin{tabular}{|c|c|c|}
+	\hline \rule[-2ex]{0pt}{5.5ex}  Index&  Gewicht&  $x(i)-\overline{x}$\\ 
+	\hline \rule[-2ex]{0pt}{5.5ex}  1&  		112&  	$[112-145,4]^2$\\ 
+	\hline \rule[-2ex]{0pt}{5.5ex}  2&  		132&  	$[132-145,4]^2$\\ 
+	\hline \rule[-2ex]{0pt}{5.5ex}  3&  		136&  	$[136-145,4]^2$\\ 
+	\hline \rule[-2ex]{0pt}{5.5ex}  4&  		143&  	$[143-145,4]^2$\\ 
+	\hline \rule[-2ex]{0pt}{5.5ex}  5&  		145&  	$[145-145,4]^2$\\ 
+	\hline \rule[-2ex]{0pt}{5.5ex}  6&  		151&  	$[151-145,4]^2$\\ 
+	\hline \rule[-2ex]{0pt}{5.5ex}  7&  		152&  	$[152-145,4]^2$\\ 
+	\hline \rule[-2ex]{0pt}{5.5ex}  8&  		152&  	$[152-145,4]^2$\\ 
+	\hline \rule[-2ex]{0pt}{5.5ex}  9&  		159&  	$[159-145,4]^2$\\ 
+	\hline \rule[-2ex]{0pt}{5.5ex}  10&  		172&  	$[172-145,4]^2$\\ 
+	\hline \rule[-2ex]{0pt}{5.5ex}  Summe&  	1454&  	-\\ 
+	\hline \rule[-2ex]{0pt}{5.5ex}  Mittelwert& 145,4&  -\\ 
+	\hline 
+	\end{tabular} 
+	\end{center}
+	
+	\begin{center}
+		
+	\begin{tabular}{|c|c|c|}
+	\hline \rule[-2ex]{0pt}{5.5ex}  Index&  Gewicht&  $x(i)-\overline{x}$\\ 
+	\hline \rule[-2ex]{0pt}{5.5ex}  1&  		112&  	$1115,56$\\ 
+	\hline \rule[-2ex]{0pt}{5.5ex}  2&  		132&  	$179,56$\\ 
+	\hline \rule[-2ex]{0pt}{5.5ex}  3&  		136&  	$88,36$\\
+	\hline \rule[-2ex]{0pt}{5.5ex}  4&  		143&  	$5,76$\\ 
+	\hline \rule[-2ex]{0pt}{5.5ex}  5&  		145&  	$0,16$\\ 
+	\hline \rule[-2ex]{0pt}{5.5ex}  6&  		151&  	$31,36$\\ 
+	\hline \rule[-2ex]{0pt}{5.5ex}  7&  		152&  	$43,56$\\
+	\hline \rule[-2ex]{0pt}{5.5ex}  8&  		152&  	$43,56$\\
+	\hline \rule[-2ex]{0pt}{5.5ex}  9&  		159&  	$182,96$\\
+	\hline \rule[-2ex]{0pt}{5.5ex}  10&  		172&  	$707,56$\\
+	\hline \rule[-2ex]{0pt}{5.5ex}  -&  		Summe&  $2400,4$\\ 
+	\hline \rule[-2ex]{0pt}{5.5ex}  -& 			$s^2$&  $240,04$\\ 
+	\hline \rule[-2ex]{0pt}{5.5ex}  -& 			$s$&  	$15,49$\\
+	\hline 
+	\end{tabular} 
+	\end{center}
+	
+	%Aufgabe 1m
+\subsection{Zeichnen Sie den zu dieser Verteilung (unklassierte Daten) passende Boxplot.}
+	\underline{Lösung:}
+	\newline
+	Minimum $x_{min} =112$\newline
+	Maximum  $x_{max} =172$\newline
+	unteres Quantil $x_{0,25}=136$\newline
+	unteres Quantil $x_{0,75}=152$\newline
+	Median $x_{0,5}=148$\newline
+	arithmetisches Mittel $\overline{x}=1145,4$\newline
+	\newline
+	\newline
+	Grafik fehlt
+	\newline
+	
+	%Aufgabe 1n
+\subsection{Wenn man den Wert 136 durch 316 ersetzt (Schreibfehler), wie wirkt das dann auf den Mittelwert, die Standardabweichung, den Median und die Quantile aus (nur qualitativ: also wächst/fällt leicht/stark)?}
+	\underline{Lösung:}
+	\newline
+	$136 \rightarrow 316$
+	$x_{(0,5)}$ wächst leicht 				\newline
+	Quantile wachsen langsam oder nicht		\newline
+	Quartilsabstand wächst leicht			\newline
+	$\overline{x}$ wächst stark				\newline
+	s sehr stark							\newline
+	\newline
+	
