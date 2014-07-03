@@ -9,15 +9,15 @@ E3	done
 E4	done
 E5	done
 E6	done?
-E7	fehlt			Tabelle fehlt - Lv !?	
+E7	fehlt				Tabelle fehlt - Lv !?	
 E8	fehlt				Lv
 E9	fehlt				Lv
 E10	fehlt				Lv
 E11	done				tapken
 E12	done				tapken
 E13	fehlt				fehlt
-E14 	done				
-E15 	done				
+E14 done				
+E15 done				
 E16	done				
 E17	done				
 E18	done				
@@ -39,4 +39,4 @@ E33 done
 E34 fehlt				
 E35 fehlt			
 E36 fehlt			
-E37 done			Lv
+E37 done				Lv
