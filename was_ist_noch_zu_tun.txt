@@ -1,5 +1,7 @@
-Lösungen von Statistik.tex:
+﻿Lösungen von Statistik.tex:
 E1: c, d fehlt; E2: done, E4: done
+
+	Dauerer				Götz
 
 E1	done
 E2	done
@@ -7,34 +9,34 @@ E3	done
 E4	done
 E5	done
 E6	done?
-E7	fehlt
-E8	fehlt	
-E9	fehlt
-E10	fehlt
-E11	done
-E12	done
-E13	fehlt
-E14 done
-E15 done
-E16	done
-E17	done
-E18	done
-E19 done-tapken
-E20	done-tapken
-E21 fehlt
-E22 done
-E23 done
-E24 fehlt
-E25 fehlt
-E26	done
-E27 done
-E28 fehlt
-E29 fehlt
-E30 fehlt
-E31 fehlt
-E32	done 	
-E33 done 	Angabe fehlt
-E34 fehlt	Angabe fehlt
-E35 fehlt	Angabe fehlt
-E36 fehlt	Angabe fehlt
-E37 done	Angabe fehlt
+E7	fehlt			Tabelle fehlt - Lv !?	
+E8	fehlt				Lv
+E9	fehlt				Lv
+E10	fehlt				Lv
+E11	done				tapken
+E12	done				tapken
+E13	fehlt				fehlt
+E14 	done				
+E15 	done				
+E16	done				
+E17	done				
+E18	done				
+E19 done-tapken				
+E20	done-tapken			
+E21 fehlt				fehlt
+E22 done				
+E23 done				
+E24 fehlt				fehlt
+E25 fehlt				fehlt
+E26	done				tapken
+E27 done				
+E28 fehlt				
+E29 fehlt				
+E30 fehlt				
+E31 fehlt				Lv
+E32	done 	Angabe fehlt		
+E33 done 	Angabe fehlt			
+E34 fehlt	Angabe fehlt			
+E35 fehlt	Angabe fehlt		
+E36 fehlt	Angabe fehlt		
+E37 done	Angabe fehlt		Lv
