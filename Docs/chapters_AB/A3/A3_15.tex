@@ -1,0 +1,27 @@
+\subsection*{Aufgabe 15}
+Wahrscheinlichkeiten für ein Ereignis lassen sich approximieren, indem man das
+entsprechende Zufallsexperiment häufig durchführt und die relative Häufigkeit betrachtet, mit
+der das Ereignis eintritt. Natürlich führt man das Experiment nicht wirklich durch, sondern
+lässt es den Rechner simulieren. Wir betrachten zunächst die Lotto-Ziehung, bei der 6 aus 49
+Zahlen ohne Zurücklegen ausgewählt werden.
+\begin{enumerate} [leftmargin=0.5cm, label=\alph*)]
+\item Mit welcher Wahrscheinlichkeit ist die kleinste der 6 ausgewählten Zahlen gleich 17?
+(Hinweis: Überlegen Sie, wie viele Ziehungen es gibt, bei denen die 17 und zusätzlich 5
+Zahlen zwischen 18 und 49 gezogen werden.)
+\item Das Ergebnis aus a) wollen wir nun durch Simulation überprüfen. Der entscheidende R-Befehl
+ist $sample(N,n)$: \newline \newline
+$sample(N,n)$ erzeugt einen Vektor, der eine zufällige Ziehung ohne Zurücklegen von n
+Elementen aus den ganzen Zahlen von 1 bis N simuliert. \newline \newline
+$sample(N, n, replace = T)$ zieht mit Zurücklegen, \newline \newline
+$sample(N,N)$ erzeugt eine zufällige Permutation der ganzen Zahlen von 1 bis N. \newline \newline
+Betrachten Sie folgenden R-Code:
+\begin{center}
+\begin{figure}[!htbp]
+\fbox{\includegraphics[width=0.9\textwidth,page=1]{chapters_AB/Grafiken_AB/AB_3_15.jpg}}
+\end{figure}
+\end{center}
+\end{enumerate}
+Versuchen Sie zu verstehen, was in jedem Schritt passiert. Lassen Sie den Code mehrmals
+ausführen und beobachten Sie, welche Nachkommastellen des Ergebnisses stabil bleiben.
+Erhöhen oder verkleinern Sie den Wert von $simlaeufe$, und beobachten Sie die
+Ergebnisse. Vergleichen Sie mit Ihrem Ergebnis aus a).
