@@ -1,5 +1,4 @@
-﻿Lösungen von Statistik.tex:
-E1: c, d fehlt; E2: done, E4: done
+﻿E25 Platz für Lösung muss noch bestimmt werden
 
 	Dauerer				Götz
 
@@ -23,7 +22,7 @@ E17	done
 E18	done				
 E19 done-tapken				
 E20	done-tapken			
-E21 fehlt				fehlt
+E21 done-tapken				fehlt
 E22 done				
 E23 done				
 E24 fehlt				fehlt
