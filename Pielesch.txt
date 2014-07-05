@@ -71,7 +71,7 @@ AB4
 03			2		Lösung
 04			3		Lösung
 05			15		Lösung
-06			X		X
+06			16		Lösung
 07			5		Lösung
 08			6		Lösung
 09			10		Lösung
@@ -85,7 +85,6 @@ AB4
 
 Zusatz:
 			7		Lösung
-			16		Lösung
 			12		Lösung
 AB1
 
