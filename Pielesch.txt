@@ -51,14 +51,14 @@ AB3
 05			6		Lösung
 06			7		Lösung
 07			8		Lösung
-08			9		X
+08			9		X		Siehe Lösung Kiesl
 09			10		Lösung
-10			11		X
+10			11		X		Siehe Lösung Kiesl
 11			12		Lösung
-12			14		X
-13			X		X
-14			X		X
-15			15		X
+12			14		X		Siehe Lösung Kiesl		
+13			X		X		Siehe Lösung Kiesl
+14			X		X				Lösung
+15			15		X		R Aufgabe
 
 Zusatz:
 			13		X
@@ -79,14 +79,14 @@ AB4
 11			9		Lösung
 12			X		X
 13			11		Lösung
-14			X		X
+14			X		X	
 15			13		Lösung
 16			14		Lösung
 
 Zusatz:
 			7		Lösung
 			12		Lösung
-AB1
+AB5
 
 01			1		Lösung
 02			2		Lösung
