@@ -1,23 +1,23 @@
 			Arbeitsblätter
 	
-			Pielesch	Lösung
+			Pielesch	Lösung		Matthias	Daui
 
 AB1
 
-01			1		Lösung
+01			1		Lösung		
 02			2		Lösung
-03			3 		X
+03			3 		X		Lösung
 04			6		Lösung		
 05			7		Lösung
 06			8		Lösung
-07			9		X
-08			11		X
-09			12		X
+07			9		Lösung		
+08			11		X				Lösung
+09			12		X		Lösung
 10			13		Lösung
-11			14		X
+11			14		X		Lösung		Lösung
 12			15		Lösung
-13			X		X
-14			X		X
+13			X		X		Lösung		Lösung
+14			X		X		Lösung		Lösung
 
 Zusatz:
 			5		Lösung
@@ -26,15 +26,15 @@ Zusatz:
 
 AB2
 
-01			X		X
+01			X		X		Siehe Lösung Kiesl
 02			2		Lösung
 03			3		Lösung
 04			4		Lösung
-05			X		X
+05			X		X		Siehe Lösung Kiesl
 06			6		Lösung
-07			7		X
-08			X		X
-09			8		X
+07			7		X		Kovarianz anschauen
+08			X		X		Kovarianz anschauen
+09			8		X		Siehe Kiesl Lösung
 
 
 Zusatz			
