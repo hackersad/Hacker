@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.5.8)  3 JUL 2014 16:02
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.5.8)  8 JUL 2014 12:27
 entering extended mode
 **Übungsaufgaben_final.tex
 
@@ -467,6 +467,15 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
 \@eurobox=\box34
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\units\units.sty"
+Package: units 1998/08/04 v0.9b Typesetting units
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\units\nicefrac.sty"
+Package: nicefrac 1998/08/04 v0.9b Nice fractions
+\L@UnitsRaiseDisplaystyle=\skip55
+\L@UnitsRaiseTextstyle=\skip56
+\L@UnitsRaiseScriptstyle=\skip57
+))
 (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\Übungsaufgaben_final.aux
 (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E01.aux)
 (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E02.aux)
@@ -505,20 +514,20 @@ Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
 (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E35.aux)
 (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E36.aux)
 (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E37.aux))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
 \c@lstlisting=\count143
 \AtBeginShipoutBox=\box35
 
@@ -536,7 +545,7 @@ LaTeX Font Info:    ... okay on input line 20.
 \makeMPintoPDFobject=\count149
 \everyMPtoPDFconversion=\toks26
 )
-Package hyperref Info: Link coloring ON on input line 20.
+Package hyperref Info: Link coloring ON on input line 21.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -545,9 +554,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count150
 )
-LaTeX Info: Redefining \ref on input line 20.
-LaTeX Info: Redefining \pageref on input line 20.
-LaTeX Info: Redefining \nameref on input line 20.
+LaTeX Info: Redefining \ref on input line 21.
+LaTeX Info: Redefining \pageref on input line 21.
+LaTeX Info: Redefining \nameref on input line 21.
 
 (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\Übungsaufgaben_final.out
 )
@@ -622,104 +631,108 @@ Underfull \hbox (badness 10000) in paragraph at lines 116--122
 
  []
 
-[3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 165--177
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 147--155
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 159--168
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--177
+Underfull \hbox (badness 10000) in paragraph at lines 159--168
 
  []
 
+) [5] (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E02.tex
+<./chapters/Grafiken_TB/TB_E2.jpg, id=249, 675.27281pt x 485.56406pt>
+File: ./chapters/Grafiken_TB/TB_E2.jpg Graphic file (type jpg)
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--177
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 180--189
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 180--189
-
- []
-
-[5]) [6] (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E02.tex
-[7
+<use ./chapters/Grafiken_TB/TB_E2.jpg>
+Package pdftex.def Info: ./chapters/Grafiken_TB/TB_E2.jpg used on input line 20
+.
+(pdftex.def)             Requested size: 398.38567pt x 286.4729pt.
+ [6
 
 
-]) [8] (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E03.tex) 
-[9
+ <C:/Users/Matthias/Documents/Repositories/Hacker/Docs/chapters/Grafiken_TB/TB_
+E2.jpg>]) [7]
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E03.tex)
+[8
 
 
 ] (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E04.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 3--25
+Underfull \hbox (badness 10000) in paragraph at lines 3--26
 
  []
 
 
-Overfull \hbox (0.58902pt too wide) in paragraph at lines 3--25
+Overfull \hbox (0.58902pt too wide) in paragraph at lines 3--26
 []  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--25
+Underfull \hbox (badness 10000) in paragraph at lines 3--26
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--25
+Underfull \hbox (badness 10000) in paragraph at lines 3--26
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--25
+Underfull \hbox (badness 10000) in paragraph at lines 3--26
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--25
+Underfull \hbox (badness 10000) in paragraph at lines 3--26
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--25
+Underfull \hbox (badness 10000) in paragraph at lines 3--26
 
  []
 
-[10
+[9
 
 
 ] (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E05.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--9
+<./chapters/Grafiken_TB/TB_E5.jpg, id=274, 276.28218pt x 129.48375pt>
+File: ./chapters/Grafiken_TB/TB_E5.jpg Graphic file (type jpg)
+
+<use ./chapters/Grafiken_TB/TB_E5.jpg>
+Package pdftex.def Info: ./chapters/Grafiken_TB/TB_E5.jpg used on input line 7.
+
+(pdftex.def)             Requested size: 265.59494pt x 124.47485pt.
+) [10
+
+
+ <C:/Users/Matthias/Documents/Repositories/Hacker/Docs/chapters/Grafiken_TB/TB_
+E5.jpg>]
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E06.tex)
+[11
+
+
+] (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E07.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--6
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--9
+Underfull \hbox (badness 10000) in paragraph at lines 24--38
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 2--9
-
- []
-
-) [11
-
-
-] (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E06.tex)
 [12
 
 
-] (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E07.tex)
-[13
-
-
-] (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E08.tex)
+]) [13]
+(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E08.tex)
 [14
 
 
@@ -815,14 +828,59 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--9
 [37
 
 
-] (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E32.tex)
-(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E33.tex)
-(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E34.tex)
-(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E35.tex)
-(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E36.tex)
-(C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E37.tex)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 65.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 65.
+] (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E32.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+) [38
+
+
+] (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E33.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--8
+
+ []
+
+) [39
+
+
+] (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E34.tex)
+[40
+
+
+] (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E35.tex
+Overfull \hbox (9.76276pt too wide) in paragraph at lines 5--13
+ [] 
+ []
+
+) [41
+
+
+] (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E36.tex)
+[42
+
+
+] (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E37.tex
+<./chapters/Grafiken_TB/TB_E37.jpg, id=470, 529.98pt x 593.21625pt>
+File: ./chapters/Grafiken_TB/TB_E37.jpg Graphic file (type jpg)
+
+<use ./chapters/Grafiken_TB/TB_E37.jpg>
+Package pdftex.def Info: ./chapters/Grafiken_TB/TB_E37.jpg used on input line 4
+.
+(pdftex.def)             Requested size: 398.38567pt x 445.92488pt.
+ [43
+
+
+ <C:/Users/Matthias/Documents/Repositories/Hacker/Docs/chapters/Grafiken_TB/TB_
+E37.jpg>]
+Overfull \hbox (0.44586pt too wide) in paragraph at lines 19--21
+[]\T1/cmr/m/n/10.95 Welche Lak-ta-ti-ons-leis-tung muss ei-ne Kuh min-des-tens 
+er-brin-gen, um nicht zu den schlech-
+ []
+
+) [44]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 66.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 66.
 
 (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\Übungsaufgaben_final.aux
 (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E01.aux)
@@ -862,20 +920,20 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 65.
 (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E35.aux)
 (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E36.aux)
 (C:\Users\Matthias\Documents\Repositories\Hacker\Docs\chapters\E37.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 65.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 65.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 66.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 66.
 Package rerunfilecheck Info: File `Übungsaufgaben_final.out' has not changed.
-(rerunfilecheck)             Checksum: C2C0FA8B535927D80DFB86B75C84C1E1;5000.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 65.
+(rerunfilecheck)             Checksum: BFBF3389C62F6C26946D182A888E7B1F;4635.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 66.
  ) 
 Here is how much of TeX's memory you used:
- 11271 strings out of 493921
- 177516 string characters out of 3147274
- 305181 words of memory out of 3000000
- 14014 multiletter control sequences out of 15000+200000
- 16199 words of font info for 49 fonts, out of 3000000 for 9000
+ 11372 strings out of 493921
+ 179147 string characters out of 3147274
+ 309022 words of memory out of 3000000
+ 14073 multiletter control sequences out of 15000+200000
+ 16963 words of font info for 50 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 43i,9n,51p,617b,402s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,9n,51p,617b,491s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTe
@@ -887,14 +945,14 @@ cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Prog
 ram Files/MiKTeX 2.9/fonts/type1/public/eurosym/feymr10.pfb><C:/Program Files/M
 iKTeX 2.9/fonts/type1/public/cm-super/sfbx1095.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/cm-super/sfrm1000.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/cm-super/sfrm1095.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/cm-super/sfsx1200.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-supe
-r/sfsx1440.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfti109
-5.pfb>
-Output written on Übungsaufgaben_final.pdf (37 pages, 307786 bytes).
+/fonts/type1/public/cm-super/sfrm0800.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/cm-super/sfrm1000.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/cm-super/sfrm1095.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-supe
+r/sfsx1200.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfsx144
+0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfti1095.pfb>
+Output written on Übungsaufgaben_final.pdf (44 pages, 749786 bytes).
 PDF statistics:
- 503 PDF objects out of 1000 (max. 8388607)
- 132 named destinations out of 1000 (max. 500000)
- 409 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 576 PDF objects out of 1000 (max. 8388607)
+ 161 named destinations out of 1000 (max. 500000)
+ 448 words of extra memory for PDF output out of 10000 (max. 10000000)
 
