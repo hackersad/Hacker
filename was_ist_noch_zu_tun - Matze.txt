@@ -1,0 +1,40 @@
+﻿
+	Götz
+
+E1	done
+E2	done
+E3	done
+E4	done
+E5	done
+E6	done
+E7	a passt b fehlt
+E8	Lv
+E9	Lv
+E10	done
+E11	done
+E12	Lv
+E13	done
+E14 	Lv
+E15 	Lv
+E16	b fehlt
+E17	done
+E18	fehlt
+E19 	done	
+E20	fehlt
+E21 	done
+E22 	Lv
+E23 	done
+E24 	done
+E25  	Tapken
+E26	Lv
+E27 	Lv
+E28 	Tapken
+E29 	Tapken		
+E30 	done				
+E31 	Tapken
+E32	done
+E33 	Lv
+E34 	Tapken				
+E35 	Tapken		
+E36 	Tapken
+E37 	Tapken
